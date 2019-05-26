@@ -49,16 +49,24 @@ textarea {
 }
 
 .image {
-    position: relative;
     height: 300px;
     width: 300px;
     margin-right: 10px;
 }
 
+.placeholder {
+    position: relative;
+    text-align: center;
+    height: 20%;
+    font-size: 100%;
+    bottom: 44%;
+    background-color: #343a40;
+    color: black;
+}
+
 .gallery {
     float: left;
     margin: 10px;
-    z-index: 1;
     height: 250px;
     width: 250px;
 }
@@ -103,18 +111,6 @@ textarea {
     padding-top: 10px;
     background-color: #343a40;
 }
-
-.placeholder {
-    position: relative;
-    text-align: center;
-    height: 20%;
-    font-size: 100%;
-    bottom: 44%;
-    z-index: 2;
-    background-color: #343a40;
-    color: black;
-}
-
 /*#endregion other classes*/
 
 /*#region links*/
