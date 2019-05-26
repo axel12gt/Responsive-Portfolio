@@ -1,144 +1,159 @@
 /*#region default arguments*/
-header{
+header {
     width: 100%;
     height: 60px;
     background-color: #343a40;
 }
 
-hr{
+hr {
     border: 2px solid grey;
     background-color: grey;
 }
 
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-image: url(../images/Kaguyasama.PNG)
- }
+}
 
- footer{
+footer {
     margin-top: 34.4vh;
     text-align: center;
     width: 100%;
     height: 60px;
     padding-top: 10px;
     background-color: #343a40;
- }
+}
 
- li{
+li {
     display: inline;
     margin-left: 3%;
 }
 
-textarea{
+textarea {
     resize: none;
 }
+
 /*#endregion default arguments*/
 
 /*#region other classes*/
-.container{
+.container {
     width: 900px;
-    margin:  auto;
+    margin: auto;
 }
 
-.container::after{
+.container::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.image{
+.image {
     position: relative;
     height: 300px;
     width: 300px;
     margin-right: 10px;
 }
 
-.gallery{
+.gallery {
     float: left;
     margin: 10px;
+    z-index: 1;
+    height: 250px;
+    width: 250px;
 }
 
-.gallery:nth-child(even){
+.gallery:nth-child(even) {
     margin: 10px 101px 10px 10px;
 }
 
-.leftside{
+.leftside {
     float: left;
 }
 
-.rightside{
+.rightside {
     width: 27%;
     float: right;
 }
 
-.bg{
+.bg {
     background-color: white;
     padding: 0px 5px;
 }
 
-.bg2{
+.bg2 {
     background-color: white;
     padding: 0px 5px 5px;
 }
 
-.portfoliofoot{
+.portfoliofoot {
     margin-top: 3vh;
     text-align: center;
     width: 100%;
     height: 60px;
     padding-top: 10px;
     background-color: #343a40;
- }
+}
 
- .contactfoot{
+.contactfoot {
     margin-top: 48vh;
     text-align: center;
     width: 100%;
     height: 60px;
     padding-top: 10px;
     background-color: #343a40;
- }
+}
+
+.placeholder {
+    position: relative;
+    text-align: center;
+    height: 20%;
+    font-size: 100%;
+    bottom: 44%;
+    z-index: 2;
+    background-color: #343a40;
+    color: black;
+}
 
 /*#endregion other classes*/
 
 /*#region links*/
-a:link, a:visited
-{
+a:link,
+a:visited {
     color: grey;
     text-decoration: none;
 }
 
-a:active{
+a:active {
     color: black;
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
 
-.active{
-    color: black!important;
+.active {
+    color: black !important;
     font-weight: bold;
 }
+
 /*#endregion links*/
 
 /*#region mediaqueries*/
 
 /*#region 980px*/
-@media only screen and (max-width: 980px){
-
-}
+@media only screen and (max-width: 980px) {}
 
 /*#endregion 980px*/
 
 /*#region 768px*/
-@media only screen and (max-width: 768px){
-    .container{
+@media only screen and (max-width: 768px) {
+    .container {
         width: 708px;
     }
-    .rightside{
+
+    .rightside {
         width: 36%;
     }
 }
@@ -146,11 +161,12 @@ a:hover{
 /*#endregion 768px*/
 
 /*#region 640px*/
-@media only screen and (max-width: 640px){
-    .container{
+@media only screen and (max-width: 640px) {
+    .container {
         width: 580px;
     }
-    .rightside{
+
+    .rightside {
         width: 44%;
     }
 }
