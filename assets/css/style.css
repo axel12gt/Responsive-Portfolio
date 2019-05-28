@@ -32,6 +32,8 @@ li {
 
 textarea {
     resize: none;
+    height: 12em;
+    width: 99.5%;
 }
 
 /*#endregion default arguments*/
@@ -139,7 +141,9 @@ a:hover {
 /*#region mediaqueries*/
 
 /*#region 980px*/
-@media only screen and (max-width: 980px) {}
+@media only screen and (max-width: 980px) {
+
+}
 
 /*#endregion 980px*/
 
